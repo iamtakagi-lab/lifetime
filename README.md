@@ -1,0 +1,4 @@
+# lifetime
+
+## LICENCE
+MIT.
