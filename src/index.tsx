@@ -23,7 +23,7 @@ const ElapsedTime: React.FC<{}> = ({}) => {
 };
 
 const App: React.FC<{}> = ({}) => (
-  <div id="app">
+  <div>
     <h1>lifetime</h1>
     <ElapsedTime />
   </div>
