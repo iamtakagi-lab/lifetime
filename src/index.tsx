@@ -15,9 +15,9 @@ const ElapsedTime: React.FC<{}> = ({}) => {
 
   return (
     <div>
-      iamtakagi が生まれてから {elapsed.getFullYear() - 1970}年
-      {elapsed.getMonth()}か月{elapsed.getDate() - 1}日{elapsed.getHours()}時間
-      {elapsed.getMinutes()}分{elapsed.getSeconds()}秒 経過しました。
+      iamtakagi が生まれてから {elapsed.getFullYear() - 1970}年{" "}
+      {elapsed.getMonth()}か月 {elapsed.getDate() - 1}日 {elapsed.getHours()}
+      時間 {elapsed.getMinutes()}分 {elapsed.getSeconds()}秒 経過しました。
     </div>
   );
 };
