@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 
-// 生まれた日。多分、2001年9月19日 午前4時くらい。(時間が午前か午後か覚えてないので、違うかも。)
-const birthTime = new Date(2001, 9 - 1, 19, 4, 0).getTime();
+// 生まれた日。多分、2001年9月19日
+const birthTime = new Date(2001, 9 - 1, 19).getTime();
 
 const ElapsedTime: React.FC<{}> = ({}) => {
   const [elapsed, setElapsed] = useState(new Date(Date.now() - birthTime));
